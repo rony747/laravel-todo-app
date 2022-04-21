@@ -17,7 +17,7 @@ function getAllTodos() {
                             <input type="checkbox" class="task-complete" id="task-complete" checked>
                             <span>${todo.todo_text}</span>
                         </label>
-                        <span class="delete-btn" title="Delete Task">task delete</span>
+                        <span class="delete-btn" title="Delete Task"></span>
                     </li>`;
                     } else {
                         taskListUl.innerHTML += `<li class="task-list-item taskListLi" data-id="${todo.id}" v-for="task in tasks">
@@ -25,7 +25,7 @@ function getAllTodos() {
                             <input type="checkbox" class="task-complete" id="task-complete">
                             <span>${todo.todo_text}</span>
                         </label>
-                        <span class="delete-btn" title="Delete Task">task delete</span>
+                        <span class="delete-btn" title="Delete Task"></span>
                     </li>`;
                     }
                 });
